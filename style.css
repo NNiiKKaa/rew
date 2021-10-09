@@ -1,0 +1,121 @@
+@font-face {
+    src: url("fonts/HelveticaNeue-Regular.ttf");
+    font-family: regular;
+}
+@font-face {
+    src: url("fonts/helvetica-neue-bold.ttf");
+    font-family: bold;
+}
+@font-face {font-family: "roman";
+  src: url("fonts/2afedaab5a5177410b408023384af22d.eot"); /* IE9*/
+  src: url("fonts/2afedaab5a5177410b408023384af22d.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/2afedaab5a5177410b408023384af22d.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/2afedaab5a5177410b408023384af22d.woff") format("woff"), /* chrome、firefox */
+  url("fonts/2afedaab5a5177410b408023384af22d.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/2afedaab5a5177410b408023384af22d.svg#Helvetica Neue LT W01 55 Roman") format("svg"); /* iOS 4.1- */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid black
+}
+
+/********navigation start*****/
+
+.top-header-section {
+    background-color: #0A22F4;
+    width: 100%;
+}
+
+.header {
+    max-width: 1435px;
+    width: 100%;
+    margin: 22px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;  
+    flex-wrap: wrap;
+}
+.nav-li {
+    margin-left: 42px;
+}
+
+
+/*********navigation end*****/
+
+/********slider start******/
+
+
+.slider {
+    text-align: center;
+    margin-top: 182px;
+}
+
+.slider-img {
+    width: 606px;
+}
+.slider-main-img {
+    width: 707px;
+    margin-top: -55px;
+}
+
+/**********bullets and arrows for slide*****/
+
+.bullets-div div {
+    width: 10px;
+    height: 10px;
+    background-color: #FFF;
+    outline: none;
+    border-radius: 50%;
+}
+.bullets-div {
+    display: flex;
+    width: 70px;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.slider-bullets {
+    opacity: 0.3;
+}
+
+.bullets-and-arrows {
+    display: flex;
+    justify-content: space-between;
+    max-width: 707px;
+    margin: 36px auto 193px auto;
+    align-items: center;
+}
+.arrow-div {
+    cursor: pointer;
+    width: 74px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-arrow {
+    transform: rotate(180deg);
+    opacity: 0.3;
+}
+
+/**************about us section start****/
+
+.first-aboutus-section {
+    
+}
